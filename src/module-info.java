@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Iván
+ *
+ */
+module InfoPointPro {
+}
