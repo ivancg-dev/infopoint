@@ -1,4 +1,4 @@
-package biblioteca;
+package Clases;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -15,7 +15,7 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 
-public class InicioSesion extends JDialog {
+public class LoginDialog extends JDialog {
 
     private static final long serialVersionUID = 1L;
     private final JPanel contentPanel = new JPanel();
@@ -26,7 +26,7 @@ public class InicioSesion extends JDialog {
     private boolean autenticado = false;
 
     // ---- Constructor ----
-    public InicioSesion() {
+    public LoginDialog() {
         setTitle("Inicio de Sesión");
         setBounds(100, 100, 400, 220);
         setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE); 
@@ -106,7 +106,7 @@ public class InicioSesion extends JDialog {
     }
 
     // ---- Método público para saber si se autenticó ----
-    public boolean isAutenticado() {
+    public boolean isLoginCorrect() {
         return autenticado;
     }
 }

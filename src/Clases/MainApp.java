@@ -12,7 +12,7 @@ public class MainApp {
         // Siempre lanzar Swing en EventQueue
         SwingUtilities.invokeLater(() -> {
             // Mostrar login
-            LoginDialog login = new LoginDialog(null);
+            LoginDialog login = new LoginDialog();
             login.setVisible(true);
 
             // Si el login fue correcto, abrir la ventana principal
