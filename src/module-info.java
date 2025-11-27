@@ -2,9 +2,8 @@
  * 
  */
 /**
- * @author Iván
- *
+ * 
  */
-module InfoPointPro {
+module infopoint {
 	requires java.desktop;
 }
